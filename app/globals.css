@@ -26,7 +26,7 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-
+/* 
 main {
   min-height: 100vh;
   display: flex;
@@ -47,4 +47,20 @@ main {
 Link {
   color: var(--foreground);
   text-decoration: none;
+} */
+:-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
+
+html {
+  scroll-behavior: smooth;
 }
